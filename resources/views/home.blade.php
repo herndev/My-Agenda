@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-md-6 pt-3">
                         @if (empty($id))
-                            <form action="{{ route('agenda') }} method=" post" class="text-center">
+                            <form action="{{ route('agenda') }}" method="post" class="text-center">
                                 @csrf
                                 <div class="form-group">
                                     {{-- <label for="title">Title</label> --}}

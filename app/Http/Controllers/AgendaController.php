@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Agenda;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AgendaController extends Controller
 {
@@ -25,6 +26,7 @@ class AgendaController extends Controller
     public function create(Request $request)
     {
         Agenda::create([
+            'user_id' => Auth::user()->id,
             'title' => $request->title,
             'description' => $request->description,
         ]);
