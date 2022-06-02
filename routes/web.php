@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('/motivation', function () {
     return view('motivation');
 });
-Route::get('/motivation', function () {
+Route::get('/faq', function () {
     return view('motivation');
 });
 
