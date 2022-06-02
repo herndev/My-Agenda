@@ -20,7 +20,7 @@ Route::get('/motivation', function () {
     return view('motivation');
 });
 Route::get('/faq', function () {
-    return view('motivation');
+    return view('faq');
 });
 
 Auth::routes();
