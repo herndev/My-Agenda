@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('mywelcome');
 });
+Route::get('/motivation', function () {
+    return view('motivation');
+});
 
 Auth::routes();
 

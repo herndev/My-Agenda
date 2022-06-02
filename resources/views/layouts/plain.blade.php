@@ -22,8 +22,36 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-white">
     <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-none">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    Motivation Wall
+                </a>
+                <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav me-auto">
+
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href='/'>
+                                <img src="img/back.png" alt="">    
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <main class="py-4">
             @yield('content')
         </main>
