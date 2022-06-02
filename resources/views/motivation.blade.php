@@ -1,5 +1,9 @@
 @extends('layouts.motivation')
 
+@section('header')
+Motivation Wall    
+@endsection
+
 @section('content')
     <div class="container" id="mywelcome">
         <div class="row justify-content-center">
