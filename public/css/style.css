@@ -1,0 +1,168 @@
+.crv-8 {
+    border-radius: 8px;
+}
+
+.crv-25 {
+    border-radius: 25px;
+}
+
+.crv-50 {
+    border-radius: 50%;
+}
+
+.br-1 {
+    border: solid 1px;
+}
+
+.display-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-center-y {
+    display: flex;
+    align-items: center;
+}
+
+.display-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl-3 {
+    padding-left: 15px;
+}
+
+
+/* My Welcome */
+
+#mywelcome .bg {
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+
+#mywelcome .start {
+    position: relative;
+    left: -50px;
+    background-color: #F3E5DC;
+}
+
+#mywelcome .section {
+    min-height: 500px;
+}
+
+#mywelcome button {
+    background-color: #DDD2CC;
+}
+
+
+/* Login */
+
+#login button {
+    background-color: #D9C0BC;
+    color: white;
+}
+
+
+/* Register */
+
+#register button {
+    background-color: #D9C0BC;
+    color: white;
+}
+
+
+/* Home */
+
+#home #agendas {
+    background-color: #F6EEFA;
+}
+
+#home #agendas .card-body {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+    .mt-dynamic {
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .container {
+        max-width: 990px;
+    }
+    .mt-dynamic {
+        margin-top: 35px;
+    }
+    #home .bg {
+        left: 25px;
+    }
+    #home .start {
+        left: -25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        max-width: 760px;
+    }
+    .mt-dynamic {
+        margin-top: 20px;
+    }
+    .visible-lg {
+        display: block;
+    }
+    .hidden-lg {
+        display: none;
+    }
+    #home .bg {
+        left: 25px;
+    }
+    #home .start {
+        left: -25px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .visible-md,
+    .visible-lg {
+        display: block;
+    }
+    .hidden-md {
+        display: none;
+    }
+    .hidden-lg {
+        display: none;
+    }
+    #home .bg {
+        position: static;
+    }
+    #home .start {
+        position: static;
+        width: 95%;
+        margin: auto;
+    }
+    #home .section {
+        min-height: 400px;
+    }
+}
