@@ -1,7 +1,7 @@
 @extends('layouts.motivation')
 
 @section('header')
-Motivation Wall    
+
 @endsection
 
 @section('content')
