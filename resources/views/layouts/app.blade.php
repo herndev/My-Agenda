@@ -53,6 +53,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href='/motivation'>{{ __('Motivation Wall') }}</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#'>{{ __('Alarm') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#'>{{ __('Setting') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#'>{{ __('History') }}</a>
+                        </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href='#'>{{ __('Alarm') }}</a>
                         </li>
