@@ -1,4 +1,4 @@
-@extends('layouts.plain')
+@extends('layouts.motivation')
 
 @section('content')
     <div class="container" id="mywelcome">
