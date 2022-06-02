@@ -40,7 +40,7 @@
                                     <textarea class="form-control" id="description" name="description" rows="10" placeholder="Description">{{ $editagenda->description }}</textarea>
                                 </div>
                                 <button class="crv-25 px-5 pt-2 mt-4">
-                                    <h5>UPDATE</h5>
+                                    <h5>SAVE</h5>
                                 </button>
                             </form>
                         @endif
