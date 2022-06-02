@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-none">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Motivation Wall
+                    @yield('header')
                 </a>
                 <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -45,7 +45,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href='/'>
-                                <img src="img/back.png" alt="">    
+                                <img src="img/back.png" alt="">
                             </a>
                         </li>
                     </ul>
