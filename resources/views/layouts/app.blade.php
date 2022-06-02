@@ -63,11 +63,11 @@
                             <a class="nav-link" href='#'>{{ __('History') }}</a>
                         </li> --}}
                         <li class="nav-item">
-                            <a class="nav-link" href='#'>{{ __('FAQ') }}</a>
+                            <a class="nav-link" href='/faq'>{{ __('FAQ') }}</a>
                         </li>
                         @auth
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle text-capitalize" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->username }}
                                 </a>
@@ -127,26 +127,8 @@
             @yield('content')
         </main>
     </div>
-    {{-- <script src="{{ asset('js/jquery.min.js') }}" defer></script> --}}
-    {{-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script> --}}
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
-    <script>
-        // var mnavbar = 1;
-        // $(document).ready(function() {
-        //     $('body').on('click', '#navbar-toggler', function() {
-        //         if ((mnavbar % 2) === 0) {
-        //             setTimeout(() => {
-        //                 $('#navbarSupportedContent').removeClass("show");
-        //                 $('#navbar-toggler').attr('aria-expanded', "false");
-        //             }, 400);
-        //         }
-        //         mnavbar += 1;
-        //         console.log(mnavbar);
-        //     });
-        // });
-    </script>
 </body>
 
 </html>
